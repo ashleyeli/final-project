@@ -1,0 +1,81 @@
+body{ 
+    background-color: #d6c3c9;
+    background: url(../css/img/desks.jpg) no-repeat center;
+    background-size: cover;
+    width:auto;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+nav {
+    background-color: #0fa; 
+    width: 95%;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 10px 6px 10px #f9f6f6;
+    position: sticky;
+    top: 40px;
+    z-index: 1100;
+}
+a{
+    text-decoration: none;
+    background-color: black;
+    color: #f9f6f6;
+    padding: 5px;
+    margin-top: 100px;
+    margin: 5px;
+    display: inline-block;
+}
+a:active{
+    background-color: rgb(13, 255, 0);
+}
+a:hover {
+    text-decoration: none;
+    color: hotpink;
+}
+a:visited{
+    color: rgb(105, 110, 255);
+    text-decoration: none;
+}
+h1 {
+    padding: 10px;
+    text-align: center;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+#main {
+    width: 69%;
+    height: 600px;
+    background-color:#07090F;
+    color:#f9f6f6;
+    border: solid 5px #0fa;
+    margin: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    float: left;
+    opacity: 80%;
+}
+aside {
+float: right;
+width: 170px;
+height: 600px;
+background-color: #07090F;
+color: #f9f6f6; 
+margin: 10px;
+padding: 10px;
+border: solid 5px #0fa;
+opacity: 80%;
+}
+footer{
+width: 95%;
+background-color: #0fa;
+color: #07090F;
+clear: both;
+padding: 20px;
+}
